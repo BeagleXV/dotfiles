@@ -1,6 +1,9 @@
 history
 btop.log
 
+.local
+!.local/share/fonts
+
 # Tmux
 tmux
 !tmux/tmux.conf
