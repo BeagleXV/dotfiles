@@ -1,10 +1,6 @@
 [user]
 	name = BeagleXV
-	email = fernandooliveira@klever.io
-	signingkey = 8886605FB12D706E
-
-[gpg]
-    program = /usr/bin/gpg
+	email = beaglexv@gmail.com
 
 [core]
     pager = delta
@@ -17,9 +13,6 @@
 [url "ssh://git@github.com/"]
     insteadOf = https://github.com/
     insteadOf = gh:
-
-[commit]
-    gpgsign = true
 
 [push]
     autoSetupRemote = true

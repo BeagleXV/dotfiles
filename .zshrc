@@ -1,5 +1,5 @@
 source ~/.instant.zsh
-instant-zsh-pre $'%F{red}fernando%f %F{white}on%f %F{red}~%f\n%F{white}λ%f '
+instant-zsh-pre $'%F{red}fernandooliveira%f %F{white}on%f %F{red}~%f\n%F{white}λ%f '
 
 # Aliases and Keybindings
 [ -f ~/.alias ] && source ~/.alias
@@ -48,3 +48,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 instant-zsh-post
+
+# opencode
+export PATH=/home/fernandooliveira/.opencode/bin:$PATH
